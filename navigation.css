@@ -1,0 +1,18 @@
+body {
+    background-color: #181818;
+}
+
+#logo {
+   height: 75px;
+   width: 150px; 
+}
+
+.TopImages {
+    height: 150px;
+    width: 300px;
+    margin-left: 37px;
+    margin-right: 37px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
