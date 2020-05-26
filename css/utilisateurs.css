@@ -1,0 +1,12 @@
+body {
+    background-color: #191919;
+}
+
+li {
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid green;
+    color: white;
+}

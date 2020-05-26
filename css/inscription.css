@@ -5,3 +5,8 @@ body {
 p {
     color: white;
 }
+
+.form {
+    width: 20%;
+    margin: 0 auto;
+}

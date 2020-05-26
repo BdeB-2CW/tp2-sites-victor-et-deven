@@ -4,24 +4,26 @@
     <title>DF Delivery</title>
 </head>
 <body>
+    <div class="form">
     <h1 align="center" style="color: white;"><b>S'inscrire</b></h1>
-    <p>ID:</p>
+    <p>ID: &nbsp;&nbsp;&nbsp;
     <input type="text" id="ID" required minlength="1" maxlength="32" size="10">
-
-    <p>Nom:</p>
+    </p>
+    <p>Nom:
     <input type="text" id="Nom" required minlength="1" maxlength="32" size="10">
-
-    <p>Prenom:</p>
+    
+     Prenom:
     <input type="text" id="Prenom" required minlength="1" maxlength="32" size="10">
-
+    </p>
     <p>Courriel:</p>
-    <input type="text" id="Courriel" required minlength="1" maxlength="32" size="10">
+    <input style="min-width: 450px;" type="text" id="Courriel" required minlength="1" maxlength="32" size="10">
 
     <p>Telephone:</p>
     <input type="text" id="Telephone" required minlength="1" maxlength="11" size="10">
-
-    <input type="button" value="Confirmer" onclick="ins_Utilisateur();">
-
+    <br><br>
+    <input style="margin-left: 150px;" type="button" value="Confirmer" onclick="ins_Utilisateur();alert('Vous êtes maintenant inscrit')">
+    </div>
     <script src="/js/inscription.js"></script>
+
 </body>
 </html>
